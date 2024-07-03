@@ -16,8 +16,12 @@ html {
 
 .purple {
   color: var(--imp-text-color) !important;
+  text-decoration: none !important;
 }
-
+.purple-link {
+  color: var(--imp-text-color) !important;
+  text-decoration:underline;
+}
 button:focus {
   box-shadow: none !important;
 }

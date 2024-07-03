@@ -12,13 +12,8 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Petar Nenchev</h3>
-        </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} PN</h3>
-        </Col>
-        <Col md="4" className="footer-body">
+       
+        <Col md="12" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
