@@ -51,37 +51,6 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={"github"}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained an image classifier model using the 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using the Resnet34 pretrained model."
-              link1={{ url: "https://github.com/soumyajit4419/Plant_AI", platform: "github" }}
-              link2={{ url: "https://plant49-ai.herokuapp.com/", platform: "website" }}
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={"github"}
-              title="AI For Social Good"
-              description="Using 'Natural Language Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace and thus helping in suicide prevention."
-              link1={{ url: "https://github.com/soumyajit4419/AI_For_Social_Good", platform: "github" }}
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={"github"}
-              title="Editor.io"
-              description="Online code and markdown editor built with React.js. Online Editor which supports HTML, CSS, and JS code with instant view of the website. Online markdown editor for building README files which supports GFM, Custom HTML tags with toolbar and instant preview. Both editors support auto-save of work using Local Storage."
-              link1={{ url: "https://github.com/soumyajit4419/Editor.io", platform: "github" }}
-              link2={{ url: "https://editor.soumya-jit.tech/", platform: "website" }}
-            />
-          </Col>
         </Row>
       </Container>
     </Container>
